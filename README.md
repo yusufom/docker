@@ -20,4 +20,9 @@
 #### docker images || docker image ls
 
 ## Running container
+#### docker run [container]
 #### docker ps || docker ps -a
+
+## Create volume
+#### docker create volume {volume name}
+#### docker run --mount source={container_name1},target=
